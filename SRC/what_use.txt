@@ -1,0 +1,31 @@
+1 - > downloaded the data 
+
+
+2 -> use excat loader function that mentioned in task file 
+
+3 - > analyze the data ( after unzipiing it ) 
+
+4 -> then have done , convert that data to pandas dataframe , [ date , birth rate ] format 
+
+5 - > make proper scheme structure for whole project 
+
+6 - > then make sub folder for increase modularization 
+
+7 -> done phase one for that 
+
+8 -> make one global notebook for all testing and etc , then added that code for increas odularity , each seprate file added functions 
+
+9 -> have done EDA part what got : 
+      - no missing value 
+      - all is in perfect value 
+      - have done monthly and yearly analysis graph 
+      - entire trend 
+
+10 -> done outlier analysis using IQR method !!1 <3 
+
+11 -> then make naive , seasonal_nive , 
+
+12 - > understanding next phases , reading docx for phase 2  
+
+
+

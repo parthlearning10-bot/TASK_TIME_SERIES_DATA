@@ -1,0 +1,5 @@
+Model,MAE,RMSE,MAPE
+Naive,896.5,1270.59,8.94
+Seasonal Naive,308.92,532.61,3.0
+Prophet,591.38,718.89,5.47
+XGBoost,282.22,418.53,2.69
