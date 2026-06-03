@@ -37,3 +37,14 @@ def mase(actual, pred, train):
     ).mean()
 
     return model_err / naive_err
+
+
+# now what i have to do tomorrow 
+
+# first do some reading and documentation for phase 2 
+ 
+
+#if some issues then resolve that 
+# have to complete within 1.5 days 
+
+# not just copy pasting make backend logic , inntegrating pydentic+ asynchronous method 

@@ -12,4 +12,4 @@ def forecast(train, test):
 
         hist.append(y)
 
-    return pred
+    return pred                         
