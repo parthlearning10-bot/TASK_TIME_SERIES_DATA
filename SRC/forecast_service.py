@@ -1,29 +1,15 @@
-import pandas as pd
-import joblib
+MODEL_PATH = r"C:\Users\com125\Desktop\Parth_Intern\SRC\models\xgb_model.pkl"
 
-
-MODEL_PATH = (
-    r"C:\Users\com125\Desktop\Parth_Intern\SRC\models\xgb_model.pkl"
-)
-
-DATA_PATH = (
-    r"C:\Users\com125\Desktop\Parth_Intern\DATA\births_clean.csv"
-)
+DATA_PATH = r"C:\Users\com125\Desktop\Parth_Intern\DATA\births_clean.csv"
 
 
 def get_forecast(horizon):
 
-    model = joblib.load(
-        MODEL_PATH
-    )
+    model = joblib.load(MODEL_PATH)
 
-    df = pd.read_csv(
-        DATA_PATH
-    )
+    df = pd.read_csv(DATA_PATH)
 
-    df["date"] = pd.to_datetime(
-        df["date"]
-    )
+    df["date"] = pd.to_datetime(df["date"])
 
     vals = df["births"].tolist()
 
@@ -33,10 +19,7 @@ def get_forecast(horizon):
 
         last_date = df["date"].iloc[-1]
 
-        next_date = (
-            last_date
-            + pd.Timedelta(days=step + 1)
-        )
+        next_date = last_date + pd.Timedelta(days=step + 1)
 
         row = pd.DataFrame({
             "lag1": [vals[-1]],
@@ -46,18 +29,14 @@ def get_forecast(horizon):
             "dow": [next_date.dayofweek],
             "month": [next_date.month]
         })
+        # business drift logic building now for that what
 
         pred = model.predict(row)[0]
 
-        pred = round(
-            float(pred),
-            2
-        )
+        pred = round(float(pred), 2)
 
         preds.append(pred)
 
         vals.append(pred)
 
     return preds
-
-#uvicorn app.main:app --reload

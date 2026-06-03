@@ -29,4 +29,34 @@
 
 # done now do next phase 
 
+# WHAT I HAVE DONE TODAY TILL NOW 
+
+1 - > READ ABOUT SOME MORE 
+2-> HAVE DONE TRAINING WITH OTHER MODEL 
+
+LIKE FROM EACH TYPE OF TRAINING ONE ONE MODEL HASE CHOSEN 
+
+    -LINER REGRESSION ( LINEAR )
+    -RANDOM FOREST ( BAGGING )
+    - xgBOOST (boosting )
+    -Extra Trees ( Randomness )
+    -prophet and ARIMA 
+    -BASE LINE FOR MODEL , 2 BASELINES 
+        -SEASONAL NAIVE
+        -SIMPLE NAIVE 
+
+      -MAKE REQUIREMENT .TXT FILE 
+      -PUSHED CHANGES TO THE GITHUB 
+      - READ DOCS ABOUT ERROS AND ETC 
+
+      
+
+
+
+
+
+
+
+
+
 
