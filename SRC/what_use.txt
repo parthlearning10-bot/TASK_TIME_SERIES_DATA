@@ -49,7 +49,19 @@ LIKE FROM EACH TYPE OF TRAINING ONE ONE MODEL HASE CHOSEN
       -PUSHED CHANGES TO THE GITHUB 
       - READ DOCS ABOUT ERROS AND ETC 
 
-      
+3 -> auto gluon use for multimodel comparison 
+4-> weighted ensamble provides good result !!!v 
+ but wait for final approval for which model t chose 
+
+
+5 - > comapre error of them which is good whic is best !!@ 
+
+# today what to do !!! 
+
+today read some more about topics and more eda processes 
+
+
+
 
 
 
